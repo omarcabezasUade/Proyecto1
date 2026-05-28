@@ -3,32 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi rpimer sitio</title>
+    <title>Intereses | Omar Cabezas</title>
     <link rel="stylesheet" href="estilos/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Mi sitio Omar Cabezas</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="intereses.html">Intereses</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a class="logo" href="index.html">Omar Cabezas</a>
+            <nav class="site-nav" aria-label="Navegación principal">
+                <a href="index.html">Inicio</a>
+                <a class="active" href="intereses.html">Intereses</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <h2>Mis intereses</h2>
-        <ul>
-            <li>Diseño y desarrollo web</li>
-            <li>Electrónica</li>
-            <li>Robótica</li>
-            <li>Tango</li>
-        </ul>
+
+    <main class="page-shell">
+        <section class="container page-hero">
+            <div>
+                <span class="eyebrow">Intereses y habilidades</span>
+                <h1>Áreas que impulsan mi aprendizaje.</h1>
+                <p>
+                    Mis intereses combinan desarrollo web, electrónica, robótica y tango. Cada área aporta una forma distinta de pensar:
+                    estructura, precisión, creatividad, sensibilidad y disciplina.
+                </p>
+            </div>
+        </section>
+
+        <section class="container section-block">
+            <div class="service-grid">
+                <article class="service-card">
+                    <h3>Diseño y desarrollo web</h3>
+                    <p>
+                        Me interesa construir sitios claros, modernos y adaptables a distintos dispositivos. Trabajo especialmente la estructura,
+                        la jerarquía visual y la coherencia entre contenido y estilo.
+                    </p>
+                    <ul>
+                        <li>HTML semántico y ordenado.</li>
+                        <li>CSS para identidad visual y responsive design.</li>
+                        <li>Navegación simple y experiencia de usuario.</li>
+                    </ul>
+                </article>
+                <article class="service-card">
+                    <h3>Electrónica</h3>
+                    <p>
+                        La electrónica me permite entender cómo funcionan los sistemas desde una perspectiva práctica. Es un campo que desarrolla
+                        paciencia, análisis y atención al detalle.
+                    </p>
+                    <ul>
+                        <li>Lectura de componentes y circuitos.</li>
+                        <li>Resolución de fallas técnicas.</li>
+                        <li>Aplicación de lógica para crear soluciones.</li>
+                    </ul>
+                </article>
+                <article class="service-card">
+                    <h3>Robótica</h3>
+                    <p>
+                        La robótica une programación, movimiento y automatización. Me atrae porque convierte ideas técnicas en resultados visibles
+                        y medibles.
+                    </p>
+                    <ul>
+                        <li>Automatización de tareas.</li>
+                        <li>Uso de sensores y actuadores.</li>
+                        <li>Pensamiento sistemico para resolver problemas.</li>
+                    </ul>
+                </article>
+                <article class="service-card">
+                    <h3>Tango</h3>
+                    <p>
+                        El tango forma parte de mi identidad cultural y personal. Aporta expresión, escucha, coordinación y respeto por el ritmo
+                        del otro.
+                    </p>
+                    <ul>
+                        <li>Disciplina y practica constante.</li>
+                        <li>Comunicación corporal y sensibilidad artística.</li>
+                        <li>Vínculo con la cultura argentina.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="container section-block">
+            <div class="highlight-box">
+                <h2 class="section-heading">Lo que busco desarrollar</h2>
+                <p>
+                    Mi objetivo es integrar estos intereses en proyectos personales y académicos: sitios web bien presentados, soluciones
+                    tecnológicas útiles y experiencias que comuniquen con claridad.
+                </p>
+                <a class="btn btn-primary" href="contacto.html">Ir a contacto</a>
+            </div>
+        </section>
     </main>
-    <footer>
-            <p>todos los derechos reservados</p>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>&copy; 2026 Omar Cabezas. Todos los derechos reservados.</p>
+            <nav class="footer-nav" aria-label="Navegación secundaria">
+                <a href="index.html">Inicio</a>
+                <a href="intereses.html">Intereses</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
     </footer>
 </body>
 </html>

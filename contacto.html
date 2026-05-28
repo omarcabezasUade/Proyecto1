@@ -3,27 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi rpimer sitio</title>
+    <title>Contacto | Omar Cabezas</title>
     <link rel="stylesheet" href="estilos/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Mi sitio Omar Cabezas</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                                <li><a href="intereses.html">Intereses</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a class="logo" href="index.html">Omar Cabezas</a>
+            <nav class="site-nav" aria-label="Navegación principal">
+                <a href="index.html">Inicio</a>
+                <a href="intereses.html">Intereses</a>
+                <a class="active" href="contacto.html">Contacto</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <h2>Contacto</h2>
-        <a href="mailto:ocabezas@uade.edu.ar">ocabezas@uade.edu.ar</a>
+
+    <main class="page-shell">
+        <section class="container page-hero">
+            <div>
+                <span class="eyebrow">Contacto</span>
+                <h1>Canales para comunicarse conmigo.</h1>
+                <p>
+                    Este espacio reúne mis datos de contacto académico y una forma simple de enviar consultas, comentarios o propuestas
+                    relacionadas con proyectos web y actividades universitarias.
+                </p>
+            </div>
+        </section>
+
+        <section class="container contact-layout">
+            <article class="contact-card">
+                <h2>Datos principales</h2>
+                <p>Para comunicaciones académicas o vinculadas con este sitio personal, el canal principal es el correo institucional.</p>
+                <dl class="contact-meta">
+                    <dt>Email</dt>
+                    <dd><a href="mailto:ocabezas@uade.edu.ar">ocabezas@uade.edu.ar</a></dd>
+                    <dt>Ubicación</dt>
+                    <dd>Buenos Aires, Argentina</dd>
+                    <dt>Área de interés</dt>
+                    <dd>Diseño y desarrollo web, tecnología aplicada y proyectos digitales.</dd>
+                </dl>
+            </article>
+
+            <article class="contact-card">
+                <h2>Mensaje</h2>
+                <form class="contact-form" action="mailto:ocabezas@uade.edu.ar" method="post" enctype="text/plain">
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="tu@email.com" required>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribí tu consulta o comentario" required></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+                </form>
+            </article>
+        </section>
     </main>
-    <footer>
-            <p>todos los derechos reservados</p>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>&copy; 2026 Omar Cabezas. Todos los derechos reservados.</p>
+            <nav class="footer-nav" aria-label="Navegación secundaria">
+                <a href="index.html">Inicio</a>
+                <a href="intereses.html">Intereses</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
     </footer>
 </body>
 </html>

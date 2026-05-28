@@ -3,27 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi rpimer sitio</title>
+    <title>Omar Cabezas | Sitio personal</title>
     <link rel="stylesheet" href="estilos/styles.css">
 </head>
-<body>
-    <header>
-        <h1>Mi sitio Omar Cabezas</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                                <li><a href="intereses.html">Intereses</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-
-            </ul>
-        </nav>
+<body class="home-page">
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a class="logo" href="index.html">Omar Cabezas</a>
+            <nav class="site-nav" aria-label="Navegación principal">
+                <a class="active" href="index.html">Inicio</a>
+                <a href="intereses.html">Intereses</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <img src="img/InfografiaOmar.png" alt="Infografia Omar">
-            <p>Aca se ve algo de mi vida</p>
+
+    <main class="page-shell">
+        <section class="container page-hero hero-split">
+            <div>
+                <span class="eyebrow">Perfil personal y académico</span>
+                <h1>Estudiante de Diseño y Desarrollo Web con mirada técnica y creativa.</h1>
+                <p>
+                    Soy Omar Cabezas, estudiante de UADE. Este sitio presenta mi perfil, mis intereses y la forma en que combino tecnología,
+                    comunicación visual y aprendizaje continuo para desarrollar proyectos digitales claros, funcionales y bien presentados.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="intereses.html">Ver intereses</a>
+                    <a class="btn btn-secondary" href="contacto.html">Contactarme</a>
+                </div>
+            </div>
+            <div class="hero-note">
+                <h2>Sobre mí</h2>
+                <p>
+                    Me interesa crear soluciones digitales que sean simples de usar y visualmente consistentes. Estoy fortaleciendo mis bases
+                    en HTML, CSS y diseño responsive, con foco en construir sitios profesionales y orientados al usuario.
+                </p>
+            </div>
+        </section>
+
+        <section class="container section-block">
+            <div class="section-header">
+                <span class="section-tag">Presentación</span>
+                <h2>Un perfil en crecimiento</h2>
+                <p>
+                    Mi recorrido une la curiosidad por la tecnología con la capacidad de organizar información, resolver problemas y comunicar ideas.
+                </p>
+            </div>
+            <div class="stats-grid">
+                <article class="stat-card">
+                    <strong>UADE</strong>
+                    <span>Formación universitaria en diseño y desarrollo web.</span>
+                </article>
+                <article class="stat-card">
+                    <strong>Web</strong>
+                    <span>Práctica en estructura HTML, estilos CSS y experiencia responsive.</span>
+                </article>
+                <article class="stat-card">
+                    <strong>Proyectos</strong>
+                    <span>Interés en piezas digitales prolijas, accesibles y fáciles de navegar.</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="container section-block">
+            <div class="content-grid">
+                <article class="content-card">
+                    <h3>Objetivo profesional</h3>
+                    <p>
+                        Seguir incorporando herramientas de desarrollo front-end para participar en proyectos reales, mejorar la calidad visual
+                        de las interfaces y aprender buenas prácticas de trabajo digital.
+                    </p>
+                </article>
+                <article class="content-card">
+                    <h3>Forma de trabajo</h3>
+                    <p>
+                        Me enfoco en comprender la necesidad, ordenar el contenido y convertirlo en una experiencia clara. Valoro la prolijidad,
+                        la constancia y la mejora paso a paso.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container section-block">
+            <div class="highlight-box">
+                <h2 class="section-heading">Infografía personal</h2>
+                <p>Esta imagen resume datos de mi vida, gustos e intereses principales.</p>
+                <img src="img/InfografiaOmar.png" alt="Infografía personal de Omar Cabezas">
+            </div>
+        </section>
     </main>
-    <footer>
-            <p>todos los derechos reservados</p>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>&copy; 2026 Omar Cabezas. Todos los derechos reservados.</p>
+            <nav class="footer-nav" aria-label="Navegación secundaria">
+                <a href="index.html">Inicio</a>
+                <a href="intereses.html">Intereses</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
     </footer>
 </body>
 </html>
