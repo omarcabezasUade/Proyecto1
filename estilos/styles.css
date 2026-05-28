@@ -47,9 +47,9 @@ img {
 .logo {
   color: #f4f7fb;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.45rem;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .site-nav {
@@ -109,7 +109,7 @@ img {
 }
 
 .page-hero h1 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   line-height: 1.2;
   margin-bottom: 16px;
 }
